@@ -1,4 +1,5 @@
 import 'package:fl_designs/widgets/background.dart';
+import 'package:fl_designs/widgets/card_table.dart';
 import 'package:fl_designs/widgets/custom_bottom_navigation.dart';
 import 'package:fl_designs/widgets/page_title.dart';
 import 'package:flutter/material.dart';
@@ -30,7 +31,7 @@ class _HomeBody extends StatelessWidget {
       child: SafeArea(
         bottom: false,
         child: Column(
-          children: [PageTitle()],
+          children: [PageTitle(), CardTable()],
         ),
       ),
     );
